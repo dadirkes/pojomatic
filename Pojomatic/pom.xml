@@ -3,7 +3,7 @@
   <groupId>org.pojomatic</groupId>
   <artifactId>pojomatic</artifactId>
   <packaging>jar</packaging>
-  <version>trunk-SNAPSHOT</version>
+  <version>TestUtils-SNAPSHOT</version>
   <name>Pojomatic</name>
   <description>
     Automatically provides configurable implementations of the
