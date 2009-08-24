@@ -10,20 +10,32 @@
   <artifactId>pojomatic-test-utils</artifactId>
   <packaging>jar</packaging>
   <name>PojomaticTestUtils</name>
+  <description>
+    Utilities to help with writing tests for, or using, classes which use Pojomatic.
+    For example, this library includes classes with JUnit and TestNG style
+    assertEquals methods which include differences (via Pojomatic.diff(Object, Object))
+    in the error message if the assertion fails.
+  </description>
 
   <dependencies>
-      <!-- TODO move this to a common parent pom -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.6</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <!-- TODO move this to a common parent pom -->
       <groupId>org.pojomatic</groupId>
       <artifactId>pojomatic</artifactId>
-      <version>TestUtils-SNAPSHOT</version>
     </dependency>
   </dependencies>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <configuration>
+          <targetJdk>1.5</targetJdk>
+          <rulesets>
+            <ruleset>${project.basedir}/src/pmd.xml</ruleset>
+          </rulesets>
+          <includeTests>true</includeTests>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>

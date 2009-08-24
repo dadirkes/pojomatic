@@ -19,12 +19,18 @@
     <url>https://pojomatic.svn.sourceforge.net/svnroot/pojomatic/trunk/pojomatic-all/pojomatic</url>
   </scm>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.4</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <configuration>
+          <targetJdk>1.5</targetJdk>
+          <rulesets>
+            <ruleset>${project.basedir}/src/pmd.xml</ruleset>
+          </rulesets>
+          <includeTests>true</includeTests>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>
