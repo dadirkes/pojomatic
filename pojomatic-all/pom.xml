@@ -11,9 +11,9 @@
   <url>http://www.pojomatic.org</url>
   <inceptionYear>2008</inceptionYear>
   <scm>
-    <connection>scm:svn:https://pojomatic.svn.sourceforge.net/svnroot/pojomatic/trunk/pojomatic-all</connection>
-    <developerConnection>scm:svn:https://pojomatic.svn.sourceforge.net/svnroot/pojomatic/trunk/pojomatic-all</developerConnection>
-    <url>https://pojomatic.svn.sourceforge.net/svnroot/pojomatic/trunk/pojomatic-all</url>
+    <url>https://github.com/overstock/pojomatic</url>
+    <connection>scm:git:git://github.com/overstock/pojomatic.git</connection>
+    <developerConnection>scm:git:git@github.com:overstock/pojomatic.git</developerConnection>
   </scm>
 
   <dependencies>
