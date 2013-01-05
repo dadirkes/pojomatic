@@ -73,8 +73,8 @@
   </licenses>
 
   <issueManagement>
-    <system>Sourceforge</system>
-    <url>https://sourceforge.net/tracker/?func=browse&amp;group_id=239113</url>
+    <system>GitHub Issues</system>
+    <url>https://github.com/overstock/pojomatic/issues</url>
   </issueManagement>
 
   <distributionManagement>
