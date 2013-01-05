@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.1" timestamp="2008-10-20T15:57:26.081">
+<file name="/home/ian/workspace/Pojomatic/target/checkout/src/test/java/org/pojomatic/internal/PojomatorImplTest.java">
+<violation beginline="63" endline="63" begincolumn="17" endcolumn="30" rule="StringInstantiation" ruleset="String and StringBuffer Rules" package="org.pojomatic.internal" class="PojomatorImplTest" method="testPropertyEquals" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#StringInstantiation" priority="2">
+Avoid instantiating String objects; this is usually unnecessary.
+</violation>
+<violation beginline="84" endline="84" begincolumn="17" endcolumn="30" rule="StringInstantiation" ruleset="String and StringBuffer Rules" package="org.pojomatic.internal" class="PojomatorImplTest" method="testObjectArrayPropertyEquals" externalInfoUrl="http://pmd.sourceforge.net/rules/strings.html#StringInstantiation" priority="2">
+Avoid instantiating String objects; this is usually unnecessary.
+</violation>
+</file>
+<suppressedviolation filename="/home/ian/workspace/Pojomatic/target/checkout/src/test/java/examples/TestPojo.java" suppressiontype="annotation" msg="Avoid unused private methods such as 'privateString()'." usermsg=""/>
+<suppressedviolation filename="/home/ian/workspace/Pojomatic/target/checkout/src/test/java/org/pojomatic/formatter/DefaultPojoFormatterTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'lastName'." usermsg=""/>
+<suppressedviolation filename="/home/ian/workspace/Pojomatic/target/checkout/src/test/java/org/pojomatic/formatter/DefaultPojoFormatterTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'age'." usermsg=""/>
+<suppressedviolation filename="/home/ian/workspace/Pojomatic/target/checkout/src/test/java/org/pojomatic/formatter/DefaultPojoFormatterTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'firstName'." usermsg=""/>
+<suppressedviolation filename="/home/ian/workspace/Pojomatic/target/checkout/src/test/java/org/pojomatic/internal/ClassPropertiesTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'onlyForToString'." usermsg=""/>
+<suppressedviolation filename="/home/ian/workspace/Pojomatic/target/checkout/src/test/java/org/pojomatic/internal/ClassPropertiesTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'privateString'." usermsg=""/>
+</pmd>

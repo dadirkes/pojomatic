@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.2" timestamp="2010-04-25T01:15:08.998">
+<suppressedviolation filename="/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java/examples/TestPojo.java" suppressiontype="annotation" msg="Avoid unused private methods such as 'privateString()'." usermsg=""/>
+<suppressedviolation filename="/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java/org/pojomatic/formatter/DefaultPojoFormatterTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'lastName'." usermsg=""/>
+<suppressedviolation filename="/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java/org/pojomatic/formatter/DefaultPojoFormatterTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'age'." usermsg=""/>
+<suppressedviolation filename="/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java/org/pojomatic/formatter/DefaultPojoFormatterTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'firstName'." usermsg=""/>
+<suppressedviolation filename="/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java/org/pojomatic/internal/ClassPropertiesTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'onlyForToString'." usermsg=""/>
+<suppressedviolation filename="/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java/org/pojomatic/internal/ClassPropertiesTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'privateString'." usermsg=""/>
+<suppressedviolation filename="/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java/org/pojomatic/internal/PojomatorImplTest.java" suppressiontype="nopmd" msg="Avoid instantiating String objects; this is usually unnecessary." usermsg=" - we mean to make a copy
+"/>
+<suppressedviolation filename="/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java/org/pojomatic/internal/PojomatorImplTest.java" suppressiontype="annotation" msg="Avoid unused private fields such as 'number'." usermsg=""/>
+</pmd>

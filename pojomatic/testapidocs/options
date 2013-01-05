@@ -1,0 +1,19 @@
+-classpath '/home/ian/svn/pojomatic-all/target/checkout/pojomatic/target/classes:/home/ian/svn/pojomatic-all/target/checkout/pojomatic/target/test-classes:/home/ian/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar:/home/ian/.m2/repository/junit/junit/4.7/junit-4.7.jar'
+ -encoding
+'ISO-8859-1'
+-protected
+-sourcepath
+'/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2008-2010. All Rights Reserved.'
+-charset
+'ISO-8859-1'
+-d
+'/home/ian/svn/pojomatic-all/target/checkout/pojomatic/target/site/testapidocs'
+-doctitle
+'Pojomatic 1.0 Test API'
+-use
+-version
+-windowtitle
+'Pojomatic 1.0 Test API'

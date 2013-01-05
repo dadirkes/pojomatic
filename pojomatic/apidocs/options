@@ -1,0 +1,21 @@
+-classpath '/home/ian/svn/pojomatic-all/target/checkout/pojomatic/target/classes'
+ -encoding
+'ISO-8859-1'
+-overview
+'/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/main/javadoc/overview.html'
+-protected
+-sourcepath
+'/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/main/java:/home/ian/svn/pojomatic-all/target/checkout/pojomatic/src/main/javadoc'
+-author
+-bottom
+'Copyright &#169; 2008-2010. All Rights Reserved.'
+-charset
+'ISO-8859-1'
+-d
+'/home/ian/svn/pojomatic-all/target/checkout/pojomatic/target/site/apidocs'
+-doctitle
+'Pojomatic 1.0 API'
+-use
+-version
+-windowtitle
+'Pojomatic 1.0 API'
