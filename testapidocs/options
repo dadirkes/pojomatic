@@ -1,0 +1,19 @@
+-classpath '/home/ian/workspace/Pojomatic/target/checkout/target/classes:/home/ian/workspace/Pojomatic/target/checkout/target/test-classes:/home/ian/.m2/repository/junit/junit/4.4/junit-4.4.jar'
+ -encoding
+'ISO-8859-1'
+-protected
+-sourcepath
+'/home/ian/workspace/Pojomatic/target/checkout/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2008. All Rights Reserved.'
+-charset
+'ISO-8859-1'
+-d
+'/home/ian/workspace/Pojomatic/target/checkout/target/site/testapidocs'
+-doctitle
+'Pojomatic 1.0-RC1 Test API'
+-use
+-version
+-windowtitle
+'Pojomatic 1.0-RC1 Test API'

@@ -1,0 +1,27 @@
+-classpath '/home/ian/svn/pojomatic-all/target/checkout/pojomatic-test-utils/target/classes:/home/ian/svn/pojomatic-all/target/checkout/pojomatic/target/pojomatic-1.0.jar'
+ -encoding
+'ISO-8859-1'
+-overview
+'/home/ian/svn/pojomatic-all/target/checkout/pojomatic-test-utils/src/main/javadoc/overview.html'
+-protected
+-sourcepath
+'/home/ian/svn/pojomatic-all/target/checkout/pojomatic-test-utils/src/main/java:/home/ian/svn/pojomatic-all/target/checkout/pojomatic-test-utils/src/main/javadoc'
+-author
+-bottom
+'Copyright &#169; 2008-2010. All Rights Reserved.'
+-charset
+'ISO-8859-1'
+-d
+'/home/ian/svn/pojomatic-all/target/checkout/pojomatic-test-utils/target/site/apidocs'
+-doctitle
+'PojomaticTestUtils 1.0 API'
+-link
+'http://kentbeck.github.com/junit/javadoc/latest'
+-link
+'http://testng.org/javadoc'
+-linkoffline
+'http://www.pojomatic.org/pojomatic/apidocs' '/home/ian/svn/pojomatic-all/target/checkout/pojomatic/target/site/apidocs'
+-use
+-version
+-windowtitle
+'PojomaticTestUtils 1.0 API'
